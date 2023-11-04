@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace CvcWebSolutions\FilamentBlockEditorPlugin\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class FilamentBlockEditorPluginCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'filamentblockeditorplugin';
 
     public $description = 'My command';
 
