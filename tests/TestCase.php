@@ -4,6 +4,7 @@ namespace CvcWebSolutions\FilamentBlockEditorPlugin\Tests;
 
 use BladeUI\Heroicons\BladeHeroiconsServiceProvider;
 use BladeUI\Icons\BladeIconsServiceProvider;
+use CvcWebSolutions\FilamentBlockEditorPlugin\FilamentBlockEditorPluginServiceProvider;
 use Filament\Actions\ActionsServiceProvider;
 use Filament\FilamentServiceProvider;
 use Filament\Forms\FormsServiceProvider;
@@ -18,7 +19,6 @@ use Illuminate\Database\Eloquent\Factories\Factory;
 use Livewire\LivewireServiceProvider;
 use Orchestra\Testbench\TestCase as Orchestra;
 use RyanChandler\BladeCaptureDirective\BladeCaptureDirectiveServiceProvider;
-use CvcWebSolutions\FilamentBlockEditorPlugin\FilamentBlockEditorPluginServiceProvider;
 
 class TestCase extends Orchestra
 {
